@@ -5,6 +5,19 @@ class Exercise
   # If the word being replaced has a capital first letter, it should instead be replaced with "Marklar".
   def self.marklar(str)
     # TODO: Implement this method
+    sentence = Array.new
+    #new_sentence = Array.new
+    sentence = str.split(/\W+/)
+    lenght = sentence.lenght
+    for i in 0..lenght
+      if sentence[i].lenght > 4
+        if sentence[i] = sentence[i].capitalize
+          sentence[i] = 'Marklar'
+        else
+          sentence[i] = 'marklar'
+
+    new_sentence = sentence.join(" ")
+
   end
 
   # Return the sum of all even numbers in the Fibonacci sequence, up to
