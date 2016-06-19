@@ -18,12 +18,12 @@ describe Exercise do
     end
   end
 
-  #describe "#even_fibonacci" do
-  #  it "should sum the even numbers in a Fibonacci sequence" do
-  #    Exercise.even_fibonacci(5).must_equal 2
-  #    Exercise.even_fibonacci(11).must_equal 44
-  #    Exercise.even_fibonacci(19).must_equal 3382
-  #    Exercise.even_fibonacci(35).must_equal 4_613_732
-  #  end
-  #end
+  describe "#even_fibonacci" do
+    it "should sum the even numbers in a Fibonacci sequence" do
+      Exercise.even_fibonacci(5).must_equal 2
+      Exercise.even_fibonacci(11).must_equal 44
+      Exercise.even_fibonacci(19).must_equal 3382
+      Exercise.even_fibonacci(35).must_equal 4_613_732
+    end
+  end
 end
